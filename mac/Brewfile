@@ -1,0 +1,46 @@
+tap "blacktop/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask", "https://mirrors.ustc.edu.cn/homebrew-cask.git"
+tap "homebrew/cask-versions"
+tap "homebrew/core", "https://mirrors.ustc.edu.cn/homebrew-core.git"
+tap "homebrew/services", "https://gitee.com/cunkai/homebrew-services.git"
+brew "mas"
+brew "mongocli"
+brew "nvm"
+brew "snap"
+brew "telnet"
+brew "tmux"
+brew "wget"
+brew "blacktop/tap/lporg"
+cask "appcleaner"
+cask "aria2gui"
+cask "baidunetdisk"
+cask "datagrip"
+cask "docker"
+cask "feishu"
+cask "google-chrome"
+cask "hiddenbar"
+cask "iina"
+cask "intellij-idea"
+cask "iterm2"
+cask "jd-gui"
+cask "keepingyouawake"
+cask "keka"
+cask "neteasemusic"
+cask "offset-explorer"
+cask "qq"
+cask "robo-3t"
+cask "shadowsocksx-ng"
+cask "tunnelblick"
+cask "typora"
+cask "visual-studio-code"
+cask "wechat"
+cask "wpsoffice"
+mas "iMovie 剪辑", id: 408981434
+mas "Keynote 讲演", id: 409183694
+mas "Numbers 表格", id: 409203825
+mas "Pages 文稿", id: 409201541
+mas "Snap", id: 418073146
+mas "Xcode", id: 497799835
+mas "企业微信", id: 1189898970
+mas "库乐队", id: 682658836
