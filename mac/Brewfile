@@ -4,84 +4,92 @@ tap "homebrew/cask", "https://mirrors.bfsu.edu.cn/git/homebrew/homebrew-cask.git
 tap "homebrew/cask-versions"
 tap "homebrew/core", "https://mirrors.bfsu.edu.cn/git/homebrew/homebrew-core.git"
 tap "homebrew/services", "https://gitee.com/cunkai/homebrew-services.git"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Keep your Mac's application settings in sync
-brew "mackup"
+
+# ==============Tools start=========================================
 # Mac App Store command-line interface
 brew "mas"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Free and open-source media player
+cask "iina"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
+mas "Snap", id: 418073146
+# File archiver
+cask "keka"
+cask "shadowsocksx-ng"
+# System monitor for the menu bar
+cask "stats"
+# Status monitoring
+cask "eul"
+# Application uninstaller
+cask "appcleaner"
+# Organize Your macOS Launchpad Apps
+brew "blacktop/tap/lporg"
+# Tool to enable and disable hidden functions of Finder and other apps
+# cask "deeper"
+# Keep your Mac's application settings in sync
+brew "mackup"
+# ==============Tools end===========================================
+
+# ==============Media start=========================================
+# Music streaming platform
+cask "neteasemusic"
+# Instant messaging tool
+cask "qq"
+# Free messaging and calling application
+cask "wechat"
+# All-in-one office suite
+cask "wpsoffice"
+# Configurable document editor that supports Markdown
+# cask "typora"
+# Open-source code editor
+cask "visual-studio-code"
+# Cloud storage service
+cask "baidunetdisk"
+# Web browser
+cask "google-chrome"
+# Graphical user interface for Aria2
+cask "aria2gui"
+# ==============Media end===========================================
+
+# ==============Development start===================================
+# Messaging and calling application
+cask "wechatwork"
+# Project management software
+cask "feishu"
 # MongoDB CLI enables you to manage your MongoDB in the Cloud
 brew "mongocli"
 # Manage multiple Node.js versions
 brew "nvm"
 # Tool to work with .snap files
-brew "snap"
+# brew "snap"
 # User interface to the TELNET protocol
 brew "telnet"
 # Terminal multiplexer
 brew "tmux"
 # Internet file retriever
 brew "wget"
-# Organize Your macOS Launchpad Apps
-brew "blacktop/tap/lporg"
-# Application uninstaller
-cask "appcleaner"
-# Graphical user interface for Aria2
-cask "aria2gui"
-# Cloud storage service
-cask "baidunetdisk"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Databases & SQL IDE
 cask "datagrip"
-# Tool to enable and disable hidden functions of Finder and other apps
-cask "deeper"
 # App to build and share containerized applications and microservices
 cask "docker"
-# Status monitoring
-cask "eul"
-# Project management software
-cask "feishu"
 # Go (golang) IDE
 cask "goland"
-# Web browser
-cask "google-chrome"
-# Utility to hide menu bar items
-cask "hiddenbar"
-# Free and open-source media player
-cask "iina"
 # Java IDE by JetBrains
 cask "intellij-idea"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Standalone Java Decompiler GUI
 cask "jd-gui"
-# Tool to prevent the system from going into sleep mode
-cask "keepingyouawake"
-# File archiver
-cask "keka"
-# System monitor with temperature & fans plugins
-cask "menubar-stats"
-# Music streaming platform
-cask "neteasemusic"
 # GUI for managing and using Apache Kafka clusters
 cask "offset-explorer"
-# Instant messaging tool
-cask "qq"
 # MongoDB management tool
 cask "robo-3t"
-cask "shadowsocksx-ng"
-# System monitor for the menu bar
-cask "stats"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
-# Configurable document editor that supports Markdown
-cask "typora"
-# Open-source code editor
-cask "visual-studio-code"
-# Free messaging and calling application
-cask "wechat"
-# Messaging and calling application
-cask "wechatwork"
-# All-in-one office suite
-cask "wpsoffice"
-mas "Snap", id: 418073146
 mas "Xcode", id: 497799835
+# ==============Development end===================================
+
